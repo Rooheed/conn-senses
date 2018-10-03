@@ -1,0 +1,63 @@
+.vh-80 {
+  height: 80vh;
+}
+
+.of-c {
+  object-fit: cover
+}
+
+.darken {
+    filter: brightness(70%);
+}
+
+.rot-270 {
+  transform: rotate(270deg);
+}
+
+.wm-tbrl {
+  writing-mode: tb-rl;
+}
+
+.bg-cs-teal {
+  background-color: rgb(130, 187, 177)
+}
+
+.cs-teal {
+  color: rgb(130, 187, 177)
+}
+
+.bg-cs-purple {
+  background-color: rgb(125, 96, 180)
+}
+
+.bg-cs-light-gray {
+  background-color: rgb(247, 247, 247)
+}
+
+.bg-cs-mid-gray {
+  background-color: rgb(204, 203, 207)
+}
+
+.cs-sans-serif {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.min-h-100 {
+  min-height: 100%
+}
+
+.w-logo {
+  width: 12rem;
+}
+
+.h-social {
+  height: 1.5rem
+}
+
+.o-005 {
+  opacity: 0.05
+}
+
+.w-31rem {
+  width: 31rem;
+}
