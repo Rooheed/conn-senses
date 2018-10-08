@@ -6,6 +6,26 @@
 /* Small tablet to big tablet: from 7681px to 1023px */
 @media only screen and (max-width: 1023px) {
 
+    .p-text-section-2 {
+        font-size: .8rem;
+    }
+
+    .h-text-section-2 {
+        font-size: 1.3rem;
+        }
+
+    .section-3-flex>div {
+        width: 70%;
+        font-size: 1.1rem;
+        margin-left: 8rem;
+    }
+
+    footer p {
+        
+        text-align: left;
+        margin-bottom: .8rem; 
+    }
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -21,10 +41,70 @@
     .main-banner #imgban2  .imgban-box {
         padding-top: 25%;
     }
+
+    .logo {
+        width: 10rem;
+    }
+
+    .main-nav {
+        margin-top: 25px;
+    }
+
+    .section-1 {
+        padding: 5rem 2rem;
+    }
+
+    .section-2 {
+        padding: 1rem 2rem;
+    }
+
+    .h-section-1 {
+        font-size: 2rem;
+    }
+
+    .p-text-section-2 {
+        font-size: 0.8rem;
+        
+    }
+
+    .h-text-section-2 {
+        font-size: 1.1rem;
+        }
+      
+    .section-3-flex>div {
+        width: 60%;
+        font-size: 1.1rem;
+        margin-left: 2rem;
+    }
+
+    footer {
+        font-size: 60%;
+        padding: 1rem 0 1rem 2rem;
+        }
+    
+    .social-links {
+        margin-right: ;
+        margin-top: -40px;
+    }
+
+    footer p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+ 
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
+    .logo {
+        width: 9rem;
+    }
+
+    .logo-black {
+        width: 9rem;
+    }
     .main-banner #imgban3  .imgban-box {
         padding-top: 50%;
         padding-left: 1rem;

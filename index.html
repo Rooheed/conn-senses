@@ -13,16 +13,18 @@
 </head>
 <body>
     <header>
-        <img class="w-logo" src=img/cs_logo.png alt="Connected Senses Logo"/>
         <nav>
-            <ul>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">coming soon</a></li>
-                <li><a href="#">contact us</a></li>
-             </ul>
+            <div class="row">
+                <img src="img/cs_logo.png" alt="Connected logo" class="logo">
+                <img src="img/cs_logo.png" alt="Connected logo" class="logo-black">
+                <ul class="main-nav">
+                    <li class="js--scroll-about"><a href="#about">about us</a></li>
+                    <li class="js--scroll-coming"><a href="#coming">coming soon</a></li>
+                    <li class="js--scroll-contact"><a href="#contact">contact us</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    
     <div class="main-banner" id="main-banner">
         <div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
         <div class="imgban" id="imgban3">
@@ -38,8 +40,8 @@
                 <h2>Bringing technology, <br> fitness and health all <br> together.</h2>
                 <p></p>
                 <div class="button-slides">
-                <a class="btn btn-full js--scroll-to-themes" href="#">Connected</a>
-                <a class="btn btn-ghost js--scroll-to-plans" href="#">Senses</a>
+                <a class="btn btn-full js--scroll-to-connected" href="#">Connected</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
                 </div>
             </div>
         </div>
@@ -53,7 +55,7 @@
         <div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
     </div>
 
-    <section class="section-1">
+    <section class="section-1 js--section-1" id="about">
         <h1 class="h-section-1">Connected Senses is a smart fitness and health equipment manufacturer.</h1>
         <p class="p-section-1">Our products help people find their way back from injuries as well as helping to achieve fitness goals more effectively and precisely. We create state of the art measuring instruments powered by our open platform/app where you can track and visualize your progress.</p>
             <div class="row">
@@ -80,7 +82,7 @@
             </div>
     </section>
 
-    <section class="section-2">
+    <section class="section-2 js--section-2" id="coming">
         <blockquote>
             <h1 class="h-section-2">COMING SOON</h1>
             <h1 class="h1-section-2">CS | STRENGTH</h1>
@@ -130,7 +132,7 @@
             </div>
     </section>
 
-    <section class="section-3" id="">
+    <section class="section-3 js--section-3" id="contact">
 		<div class="section-3-flex">
 			<div>
                 We are working really hard to make fitness more fun and informative at the same time. We teamed up with sport scientists from Stockholm to know that we are doing things right. We are really proud about what we have accomplished together.
@@ -171,7 +173,7 @@
             </div>
         </div>
         <div class="row">
-            <p>
+            <p class="copyright">
                 Copyright &copy; 2018 by Connected Senses. All rights reseved.
             </p>
         </div>
@@ -193,9 +195,8 @@
 
 
 
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 <script src="js/connected.js"></script>
 </body>
 </html>

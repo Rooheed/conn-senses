@@ -104,3 +104,43 @@ function bannerLoop() {
 
     }
 }
+
+/* Scroll on buttons */
+$(document).ready(function(){
+
+    $('.js--scroll-to-connected').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-2').offset().top}, 1000);
+    });
+
+    $('.js--scroll-to-start').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-3').offset().top}, 1000);
+    });
+    
+/* Navigation scroll */
+    $('.js--scroll-about').click(function() {
+    $('html, body').animate({scrollTop: $('.section-1').offset().top}, 1000);
+    });
+
+    $('.js--scroll-coming').click(function() {
+        $('html, body').animate({scrollTop: $('.section-2').offset().top}, 1000);
+    });
+
+        $('.js--scroll-contact').click(function() {
+            $('html, body').animate({scrollTop: $('.section-3').offset().top}, 1000);
+        });
+
+    $('.js--section-1').waypoint(function(direction){
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+
+    },{
+        offset: '60px;'
+    });
+        
+});
+
+
+
