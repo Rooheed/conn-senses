@@ -1,51 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="stylesheet" href="tachyons-extended.css">
-  <title>Connected Senses</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <title>Connected Senses</title>
 </head>
 <body>
-
     <header>
-        <img class="w-logo" src=res/cs_logo.png alt="Connected Senses Logo"/>
+        <img class="w-logo" src=img/cs_logo.png alt="Connected Senses Logo"/>
         <nav>
-          <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">coming soon</a></li>
-            <li><a href="#">contact us</a></li>
-          </ul>
+            <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">coming soon</a></li>
+                <li><a href="#">contact us</a></li>
+             </ul>
         </nav>
-      </header>
-
-    <div class="galleryContainer">
-        <div class="slideShowContainer">
+    </header>
+    
+    <div class="main-banner" id="main-banner">
+        <div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
+        <div class="imgban" id="imgban3">
+            <!-- <img src="img/swimmer.jpg" alt=""> -->
+            <div class="imgban-box">
+                <h2>Bringing technology, <br> fitness and health all <br> together.</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="imgban" id="imgban2">
             
-            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
-            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
-            
-     <div class="imageHolder">
-       <img class="imgslides" src="res/swimmer.jpg" alt="">
-       <p class="captionText">Caption Text-01</p>
-       
-     </div>
-     <div class="imageHolder">
-        <img class="imgslides" src="res/running_nature_cropped.png" alt="">
-        <p class="captionText">Caption Text-02</p>
-        
-      </div>
-      <div class="imageHolder">
-      
-      <video autoplay muted loop src="res/skateboarder.mp4" type="video/mp4"></video>
-      <p class="captionText">Caption Text-03</p>
-   </div>
-   <div id="dotsContainer"></div>
-   
- </div> 
+            <div class="imgban-box">
+                <h2>Bringing technology, <br> fitness and health all <br> together.</h2>
+                <p></p>
+                <div class="button-slides">
+                <a class="btn btn-full js--scroll-to-themes" href="#">Connected</a>
+                <a class="btn btn-ghost js--scroll-to-plans" href="#">Senses</a>
+                </div>
+            </div>
+        </div>
+        <div class="imgban" id="imgban1">
+                <video autoplay muted loop src="img/skateboarder.mp4"></video>
+            <div class="imgban-box">
+                <h2>Connected Senses 1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate odit ipsum quis aliquid</p>
+            </div>
+        </div>
+        <div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
+    </div>
 
- <script src="tachyons.js"></script>
+    <section class="section-1">
+        <h1 class="h-section-1">Connected Senses is a smart fitness and health equipment manufacturer.</h1>
+        <p class="p-section-1">Our products help people find their way back from injuries as well as helping to achieve fitness goals more effectively and precisely. We create state of the art measuring instruments powered by our open platform/app where you can track and visualize your progress.</p>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <div class="mobile-img">
+                        <img src="img/mockup_1.png" alt="">
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="mobile-img">
+                        <img src="img/mockup_2.png" alt="">
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="mobile-img">
+                        <img src="img/mockup_3.png" alt="">
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                        <div class="mobile-img">
+                        <img src="img/mockup_4.png" alt="">
+                     </div>
+                </div>     
+            </div>
+    </section>
+
+    <section class="section-2">
+        <blockquote>
+            <h1 class="h-section-2">COMING SOON</h1>
+            <h1 class="h1-section-2">CS | STRENGTH</h1>
+            <p class="p-section-2">Measuring and performing static training just got smarter</p>
+            <p class="p1-section-2">CS / STRENGTH aims to help personal trainers, physiotherapists and <br> sports scientists to spot muscle injuries and rehabilitate faster. <br> Connected Senses will be powered by our open platform and app.</p>
+        </blockquote>
+
+        <div class="row">
+             <div class="col span-1-of-3">
+                <div class="text-section-2">
+                    <h1 class="h-text-section-2">Why strength</h1>
+                    <p class="p-text-section-2">People love training data and hence wearables have become a billion dollar market. But, a sad 45% of wearables end up in kitchen drawers after just few weeks of usage. This puts a negative impact. Strength is not a wearable, but a tool to get instant data from the muscles and train along in a static fashion.Static training helps improve static strength as several research shows.This in turn helps people perform better in their dynamic training sessions</p>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="text-section-2">
+                    <h1 class="h-text-section-2">Effective Training</h1>
+                    <p class="p-text-section-2">Starting from pointing out weak spots in muscle groups, the analysis helps both trainers and the user. They understand what the muscles challenges are before finding a suitable training routine. No more wrong routines, when one can spot it easily.</p>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="text-section-2">
+                    <h1 class="h-text-section-2">Accessibility</h1>
+                    <p class="p-text-section-2">Imagine having Strength in your favourite fitness clubs. All you have to do is connect your smartphone and select the muscle groups to train on your app. Strength can accommodate different muscle harnesses and this gives the user to choose variety of muscle groups</p>
+                </div>
+            </div>
+        </div>
+        <div class="row next-row">
+            <div class="col span-1-of-3">
+                <div class="text-section-2">
+                    <h1 class="h-text-section-2">Personal trainers</h1>
+                    <p class="p-text-section-2">Make Strenght a part of your group training sessions / Easy to carry / Establish an effective interaction with clients / Happy clients, happy yo</p>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+            <div class="text-section-2">
+                <h1 class="h-text-section-2">For fitness centers</h1>
+                <p class="p-text-section-2">An interactive training experience for every client / Show your clients that you care / Better edge over your competition</p>
+            </div>
+            </div>
+                <div class="col span-1-of-3">
+                    <div class="text-section-2">
+                        <h1 class="h-text-section-2">For sport clubs</h1>
+                        <p class="p-text-section-2">Peronalised routine for each player / Performance and analytics like never before / Prevent muscke injuries / Save huge rehabilitation coats</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section-3" id="">
+		<div class="section-3-flex">
+			<div>
+                We are working really hard to make fitness more fun and informative at the same time. We teamed up with sport scientists from Stockholm to know that we are doing things right. We are really proud about what we have accomplished together.
+			</div>
+		</div>
+  </section>
+
+   <!--FOOTER-->
+   <footer>
+        <div class="row">
+            <div class="span-1-of-2">
+        <div>
+            <label class="footer-1">
+            Address
+            <p class="footer-p">Götgatan 23 116 46 Stockholm</p>
+          </label>
+          </div>
+          <div>
+            <label class="footer-1 ">
+            Phone
+            <p class="footer-p">+46-(0)76 435 41 66</p>
+          </label>
+          </div>
+          <div>
+            <label class="footer-1">
+            Email
+            <p class="footer-p">info@connected-senses.com</p>
+          </label>
+          </div>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2018 by Connected Senses. All rights reseved.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/connected.js"></script>
 </body>
 </html>
