@@ -121,7 +121,7 @@
     }
 
     .main-banner .imgban-box h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .section-1 {
@@ -170,5 +170,11 @@
         
         text-align: left;
         margin-top: 10px;
+    }
+
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        padding: 8px 15px;
     }
 }
