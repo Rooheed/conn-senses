@@ -17,11 +17,12 @@
             <div class="row">
                 <img src="img/cs_logo.png" alt="Connected logo" class="logo">
                 <img src="img/cs_logo.png" alt="Connected logo" class="logo-black">
-                <ul class="main-nav">
-                    <li class="js--scroll-about"><a href="#about">about us</a></li>
-                    <li class="js--scroll-coming"><a href="#coming">coming soon</a></li>
-                    <li class="js--scroll-contact"><a href="#contact">contact us</a></li>
+                <ul class="main-nav js--main-nav">
+                    <li class="js--scroll-about navigation-item"><a href="#about">about us</a></li>
+                    <li class="js--scroll-coming navigation-item"><a href="#coming">coming soon</a></li>
+                    <li class="js--scroll-contact navigation-item"><a href="#contact">contact us</a></li>
                 </ul>
+                <a  class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
     </header>
@@ -198,5 +199,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/connected.js"></script>
+
+<script>
+	$(".navigation-item").click(function(){
+	  $('.mobile-nav-icon').click();
+	});
+	</script>
 </body>
 </html>

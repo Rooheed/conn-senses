@@ -56,6 +56,19 @@ header {
      border-bottom: 2px solid rgba(130, 186, 177, 1);
  }
 
+ /* Mobile navi */
+ .mobile-nav-icon {
+     float: right;
+     margin-top: 3px;
+     margin-right: 25px;
+     cursor: pointer;
+     display: none;
+ }
+
+ .mobile-nav-icon i {
+     font-size: 250%;
+     color: #fff;
+ }
 /* Sticky nav */
 .sticky {
     position: fixed;
@@ -164,7 +177,7 @@ input[type=submit]:active {
 }
 
 .main-banner #imgban2 {
- background-image: url(../img/running.png);
+    background-image: url(../img/running.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,13 +187,13 @@ input[type=submit]:active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 .main-banner .imgban video {
-    width: 100%;
-    
+    width: 100%; 
 }
+
+
 
 /* Next and Prev btn */
 .imgbanbtn {

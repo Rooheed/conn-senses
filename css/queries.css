@@ -44,7 +44,15 @@
 
     .logo {
         width: 10rem;
+        margin-left: 2rem;
     }
+
+    .logo-black {
+    
+        margin-top: .8rem;
+        margin-left: 2rem;
+    }
+
 
     .main-nav {
         margin-top: 25px;
@@ -92,7 +100,37 @@
         margin-top: 10px;
     }
 
- 
+    /* Mobile navi */
+    .main-nav { display: none;}
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 4px 0;
+        font-size: 80%;
+    }
+
+    .sticky .main-nav { margin-top: 10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 4px 0;}
+}
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 70%;
 }
 
 /* Small phones: from 0 to 480px */
@@ -100,11 +138,48 @@
 
     .logo {
         width: 9rem;
+        margin-left: 1rem;
+    }
+   
+    .logo-black {
+        width: 8rem;
+        margin-top: 1rem;
     }
 
-    .logo-black {
-        width: 9rem;
+    /* Mobile navi */
+    .main-nav { display: none;}
+    .mobile-nav-icon {
+        display: inline-block;
+        
     }
+
+    .mobile-nav-icon {
+        margin-top: 5px;
+        margin-right: 16px;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 15px;
+        margin-left: 25px;
+        
+    }
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 4px 0;
+        font-size: 60%;
+    }
+
+
+    .sticky .main-nav { margin-top: 5px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 5px 0;}
+}
     .main-banner #imgban3  .imgban-box {
         padding-top: 50%;
         padding-left: 1rem;
