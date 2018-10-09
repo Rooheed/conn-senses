@@ -96,6 +96,10 @@
         font-size: .5rem;
         
     }
+
+    .img-section-3 {
+        margin-left: 0;
+    }
     footer {
         font-size: 60%;
         padding: 1rem 0 1rem 2rem;
