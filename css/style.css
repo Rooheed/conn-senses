@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #fcf9f9;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
@@ -127,8 +127,16 @@ input[type=submit] {
 }
 
 .btn-ghost:link,
+.btn-ghost:visited,
+input[type=submit] {
+	background-color: rgb(141, 71, 253);
+	border: 1px solid rgb(255, 255, 255);
+	color: #fff;
+	margin-right: 15px;
+}
+.btn-ghost:link,
 .btn-ghost:visited {
-	border: 1px solid #004e72;
+	border: 1px solid #ffffff;
 	color: #000000;
 }
 
@@ -136,17 +144,17 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-	background-color: #004e72;
+	background-color: rgba(130, 186, 177, 1);
 }
 
 .btn-full:hover,
 .btn-full:active {
-	background-color: #004e72;
+	background-color: rgb(141, 71, 253);
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-	border: 1px solid #004e72;
+	border: 1px solid rgba(130, 186, 177, 1);
 	color: #fff;
 }
 
@@ -187,10 +195,15 @@ input[type=submit]:active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .main-banner .imgban video {
+    top: 0;
+    left: 0;
     width: 100%; 
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -263,6 +276,7 @@ input[type=submit]:active {
 .section-1 {
     padding: 5rem 8rem;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .h-section-1 {
@@ -271,7 +285,7 @@ input[type=submit]:active {
 }
 
 .p-section-1 {
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 300;
     margin-top: 2rem;
     line-height: 1.5;
@@ -280,6 +294,14 @@ input[type=submit]:active {
 
 .mobile-img img{
     width: 100%;
+}
+
+.mobile-img video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 
 /* Section 2 */
@@ -311,13 +333,13 @@ input[type=submit]:active {
 }
 
 .h-text-section-2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     padding-top: 1rem;
 }
 
 .p-text-section-2 {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -327,8 +349,12 @@ input[type=submit]:active {
     padding-bottom: 3rem;
 }
 
+.strenght {
+    color: rgba(130, 186, 177, 1);
+}
+
 /* Section 3 */
-.section-3 {
+/* .section-3 {
   
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/training.jpg);
     background-size: cover;
@@ -352,32 +378,69 @@ input[type=submit]:active {
   margin-left: 8rem;
   font-weight: 200;
   
+  } */
+
+  .section-3 {
+      padding: 4rem 8rem;
+      background-color: #fff;
   }
 
+  .h-section-3 {
+      width: 100%;
+      font-size: .9rem;
+      font-weight: 300;
+      line-height: 1.5;
+      
+  }
+  .p-section-3 {
+      font-size: .7rem;
+      padding-top: 1rem;
+      color: rgb(143, 142, 142);
+  }
+
+  .img-section-3 {
+      width: 100%;
+      margin-top: 3rem;
+      margin-left: 2rem;
+  }
   
 /*FOOTER*/
 footer {
-    background-color: #333;
+    background-color: rgb(158, 155, 155);
     font-size: 80%;
-    padding: 3rem 8rem;
+    padding: 6rem 8rem;
 }
 
-.footer-1 {
-  text-align: left;
-  color: rgb(124, 117, 117);
-  
+
+
+.footer-logo img {
+    width: 8rem;
+    padding-bottom: .8rem;
+    margin-top: 3rem;
 }
 
 .footer-p {
   text-align: left;
   color: rgb(255, 255, 255);
-  margin-top: -2px;
+  margin-top: 2px;
+  font-size: .7rem;
+}
+
+.span-footer {
+    color: #fff;
+    font-size: .5rem;
 }
 .social-links {
 	list-style: none;
     float: right;
-    margin-right: -95%;
-    margin-top: -60px;
+    margin-right: -110%;
+    margin-top: -160px;
+    padding: 2rem 8rem;
+}
+
+.social-span li{
+    padding: 1.5rem  0;
+    font-size: 1rem;
 }
 
 .footer-nav li, 
@@ -396,7 +459,7 @@ footer {
 .social-links li a:visited {
 	text-decoration: none;
 	border: 0;
-	color: #888;
+	color: rgb(252, 249, 249);
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
@@ -412,8 +475,10 @@ footer {
 
 .ion-social-facebook,
 .ion-social-twitter, 
-.ion-social-googleplus,
-.ion-social-instagram {
+.ion-social-youtube,
+.ion-social-instagram,
+.ion-social-linkedin,
+.ion-social-vimeo {
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
@@ -424,18 +489,17 @@ footer {
 .ion-social-twitter:hover {
 	color: #00aced;
 }
-.ion-social-googleplus:hover {
+.ion-social-youtube:hover {
 	color: #dd4b39;
 }
 .ion-social-instagram:hover {
 	color: #517fa4;
 }
 
-footer p {
-	color: #888;
-	text-align: center;
-	margin-top: -60px;
+.ion-social-linkedin:hover {
+	color: #517fa4;
 }
-.copyright {
-    margin-top: .9rem;
+
+.ion-social-vimeo:hover {
+	color: #00aced;
 }
