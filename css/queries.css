@@ -12,7 +12,7 @@
 
     .h-text-section-2 {
         font-size: 1.3rem;
-        }
+    }
 
     .section-3-flex>div {
         width: 70%;
@@ -21,7 +21,6 @@
     }
 
     footer p {
-        
         text-align: left;
         margin-bottom: .8rem; 
     }
@@ -34,6 +33,7 @@
     .main-banner .imgban-box h2 {
         font-size: 2rem;
     }
+
     .main-banner #imgban3  .imgban-box {
         padding-top: 30%;
     }
@@ -53,11 +53,9 @@
     }
 
     .logo-black {
-    
         margin-top: .8rem;
         margin-left: 2rem;
     }
-
 
     .main-nav {
         margin-top: 25px;
@@ -86,12 +84,12 @@
     
     .h-text-section-2 {
         font-size: 1.1rem;
-        }
+    }
       
     .section-3 {
         padding: 4rem 2rem;
         background-color: #fff;
-        }
+    }
 
     .h-section-3 {
         font-size: .7rem;
@@ -99,12 +97,12 @@
 
     .p-section-3 {
         font-size: .5rem;
-        
     }
 
     .img-section-3 {
         margin-left: 0;
     }
+
     footer {
         background-color: rgb(158, 155, 155);
         font-size: 80%;
@@ -118,7 +116,7 @@
         margin-right: -130%;
         margin-top: -150px;
         padding: 2rem 8rem;
-        }
+    }
 
    .footer-logo {
        padding-top: 2rem;
@@ -135,6 +133,7 @@
         margin-top: 15px;
         margin-left: 25px;
     }
+
     .main-nav li {
         display: block;
     }
@@ -175,19 +174,19 @@
     .main-nav { display: none;}
     .mobile-nav-icon {
         display: inline-block;
-        
     }
 
     .mobile-nav-icon {
         margin-top: .4rem;
         margin-right: 1rem;
     }
+
     .main-nav {
         float: left;
         margin-top: 15px;
-        margin-left: 5px;
-        
+        margin-left: 5px; 
     }
+
     .main-nav li {
         display: block;
     }
@@ -200,7 +199,6 @@
         font-size: 60%;
         margin-left: -25px;
     }
-
 
     .sticky .main-nav { margin-top: 5px;}
     .sticky .main-nav li a:link,
@@ -252,19 +250,19 @@
 
     .flex-container {
         flex-direction: column;
-      }
+    }
 
-      .flex-container .img-section-2{
+    .flex-container .img-section-2{
         width: 100%;
         margin-left: 0;
         margin-top: 1rem;
         
-      }
+    }
     
-      .flex-container .img-section-1 {
+    .flex-container .img-section-1 {
         color: white;
         width: 100%;
-      }
+    }
 
 
     .social-links {
@@ -279,3 +277,13 @@
         padding: 8px 15px;
     }
 }
+
+
+
+/*---------------------------------*/
+/* Finished 
+/*---------------------------------*/
+/*---------------------------------*/
+/* Codes by Rooheed Gulistani 
+/* rooheed.gulistani@gmail.com
+/*---------------------------------*/

@@ -9,7 +9,9 @@ body {
     text-decoration: none;
 }
 
+/*---------------------------------*/
 /* Header menu */
+/*---------------------------------*/
 header {
     position: absolute;
     width: 100%;
@@ -28,7 +30,9 @@ header {
     margin: 5px 0;
     margin-left: 3rem;
 }
+/*---------------------------------*/
 /* Main nav */
+/*---------------------------------*/
 .main-nav {
     float: right;
     list-style: none;
@@ -56,7 +60,9 @@ header {
      border-bottom: 2px solid rgba(130, 186, 177, 1);
  }
 
+ /*---------------------------------*/
  /* Mobile navi */
+ /*---------------------------------*/
  .mobile-nav-icon {
      float: right;
      margin-top: 3px;
@@ -69,7 +75,10 @@ header {
      font-size: 250%;
      color: #fff;
  }
+
+/*---------------------------------*/
 /* Sticky nav */
+/*---------------------------------*/
 .sticky {
     position: fixed;
     top: 0;
@@ -97,8 +106,9 @@ header {
 .sticky .logo { display: none;}
 .sticky .logo-black { display: block;}
 
-
+/*---------------------------------*/
 /* Slides btn */
+/*---------------------------------*/
 .button-slides{
 	position: absolute;
 	width: 100%;
@@ -159,7 +169,9 @@ input[type=submit]:active {
 	color: #fff;
 }
 
+/*---------------------------------*/
 /* Image slide */
+/*---------------------------------*/
 .main-banner {
     margin: 0 auto;
     width: 100%;
@@ -192,6 +204,7 @@ input[type=submit]:active {
     background-repeat: no-repeat;
 }
 
+/* Video banner */
 .main-banner #imgban1 {
     background-size: cover;
     background-position: center;
@@ -276,7 +289,9 @@ input[type=submit]:active {
     padding-left: 15%;
 }
 
+/*---------------------------------*/
 /* Section 1 */
+/*---------------------------------*/
 .section-1 {
     padding: 5rem 8rem;
     font-family: 'Montserrat', sans-serif;
@@ -296,42 +311,31 @@ input[type=submit]:active {
     padding-bottom: 5rem;
 }
 
-/* .mobile-img img{
-    width: 100%;
-}
-
-.mobile-img video {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-} */
-
+/* Mobile image */
 .flex-container {
     display: flex;
     align-items: stretch;
     
   }
   
-  .flex-container .img-section-2{
+.flex-container .img-section-1 {
+    color: white;
+    width: 10%;
+  }
+
+.img-section-1 img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Video section 1 */
+.flex-container .img-section-2 {
     width: 10%;
     margin-left: 20px;
     padding: 4px 0;
     text-align: center;
-  }
-
-  .flex-container .img-section-1 {
-    color: white;
-    width: 10%;
-    
-  }
-
-  .img-section-1 img {
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
   }
 
   .img-section-2 video {
@@ -341,10 +345,11 @@ input[type=submit]:active {
     height: 100%;
     object-fit: cover;
     border-radius: 2%;
-
   }
 
+  /*---------------------------------*/
 /* Section 2 */
+/*---------------------------------*/
 .section-2 {
     padding: 1rem 8rem;
 }
@@ -393,65 +398,42 @@ input[type=submit]:active {
     color: rgba(130, 186, 177, 1);
 }
 
+/*---------------------------------*/
 /* Section 3 */
-/* .section-3 {
-  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/training.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-    padding: 6rem 0;
-    
-    
-  }
-  
-  .section-3-flex{
-  display: flex;
-  flex-direction: row;
-  }
-  
-  .section-3-flex>div {
-  width: 50%;
-  text-align: left;
-  line-height: 1.5;
-  font-size: 1.3rem;
-  margin-left: 8rem;
-  font-weight: 200;
-  
-  } */
+/*---------------------------------*/
 
-  .section-3 {
-      padding: 4rem 8rem;
-      background-color: #fff;
+.section-3 {
+    padding: 4rem 8rem;
+    background-color: #fff;
   }
 
-  .h-section-3 {
-      width: 100%;
-      font-size: .9rem;
-      font-weight: 300;
-      line-height: 1.5;
-      
-  }
-  .p-section-3 {
-      font-size: .7rem;
-      padding-top: 1rem;
-      color: rgb(143, 142, 142);
+.h-section-3 {
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.5; 
   }
 
-  .img-section-3 {
-      width: 100%;
-      margin-top: 3rem;
-      margin-left: 2rem;
+.p-section-3 {
+    font-size: .7rem;
+    padding-top: 1rem;
+    color: rgb(143, 142, 142);
   }
-  
+
+.img-section-3 {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+/*---------------------------------*/
 /*FOOTER*/
+/*---------------------------------*/
 footer {
     background-color: rgb(158, 155, 155);
     font-size: 80%;
     padding: 6rem 8rem;
 }
-
-
 
 .footer-logo img {
     width: 8rem;
@@ -470,6 +452,8 @@ footer {
     color: #fff;
     font-size: .5rem;
 }
+
+/* Social icons */
 .social-links {
 	list-style: none;
     float: right;
@@ -478,7 +462,7 @@ footer {
     padding: 2rem 8rem;
 }
 
-.social-span li{
+.social-span li {
     padding: 1.5rem  0;
     font-size: 1rem;
 }
@@ -543,3 +527,11 @@ footer {
 .ion-social-vimeo:hover {
 	color: #00aced;
 }
+
+/*---------------------------------*/
+/* Finished 
+/*---------------------------------*/
+/*---------------------------------*/
+/* Codes by Rooheed Gulistani 
+/* rooheed.gulistani@gmail.com
+/*---------------------------------*/
