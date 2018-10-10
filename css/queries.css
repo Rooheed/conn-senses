@@ -202,7 +202,19 @@
 
     .sticky .main-nav { margin-top: 5px;}
     .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited {padding: 5px 0;}
+    .sticky .main-nav li a:visited {
+        padding: 5px 0;
+        margin-left: -150px;
+        margin-top: 10px;
+        
+    }
+
+    .sticky .main-nav {
+        height: 100%;
+        padding: 100px 0;
+    }
+
+   
 
     .main-banner #imgban3  .imgban-box {
         padding-top: 50%;

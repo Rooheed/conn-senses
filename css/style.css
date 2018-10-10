@@ -85,14 +85,14 @@ header {
     left: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: rgba(130, 186, 177, 1);
+    background-color: rgb(179, 179, 179);
     box-shadow: 0 2px 2px #efefef;
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 10px 0;
-    color: #555;
+    color: rgb(255, 255, 255);
 }
 
 .sticky .main-nav {
@@ -101,7 +101,7 @@ header {
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 .sticky .logo { display: none;}
 .sticky .logo-black { display: block;}
@@ -351,7 +351,7 @@ input[type=submit]:active {
 /* Section 2 */
 /*---------------------------------*/
 .section-2 {
-    padding: 1rem 8rem;
+    padding: 0 8rem;
 }
 
 .h-section-2 {
@@ -374,7 +374,7 @@ input[type=submit]:active {
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 300;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .h-text-section-2 {
@@ -387,11 +387,12 @@ input[type=submit]:active {
     font-size: .8rem;
     font-weight: 300;
     line-height: 1.5;
+    margin-right: 2rem;
 }
 
 .next-row {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
 }
 
 .strenght {
@@ -436,7 +437,6 @@ input[type=submit]:active {
     left: 60%;
     height: auto;
     position: absolute;
-    z-index: 2;
     opacity: 0.1;
 }
 footer {
@@ -471,6 +471,7 @@ footer {
     margin-right: -110%;
     margin-top: -160px;
     padding: 2rem 8rem;
+    position: relative;
 }
 
 .social-span li {
@@ -481,7 +482,7 @@ footer {
 .footer-nav li, 
 .social-links li {
 	display: inline-block;
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .footer-nav li:last-child,
@@ -500,7 +501,7 @@ footer {
 }
 .footer-nav li a:hover,
 .footer-nav li a:active{
-	color: #ddd;
+    color: #ddd;
 }
 
 .social-links li a:link,
