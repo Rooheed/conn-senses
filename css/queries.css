@@ -42,6 +42,11 @@
         padding-top: 25%;
     }
 
+    .main-banner #imgban1 .imgban-box {
+        padding-top: 40%;
+        padding-left: 15%;
+    }
+
     .logo {
         width: 10rem;
         margin-left: 2rem;
@@ -101,8 +106,9 @@
         margin-left: 0;
     }
     footer {
-        font-size: 60%;
-        padding: 1rem 0 1rem 2rem;
+        background-color: rgb(158, 155, 155);
+        font-size: 80%;
+        padding: 10% 12%;
     }
 
 
@@ -243,6 +249,22 @@
         padding: 4rem 1rem;
         background-color: #fff;
     }
+
+    .flex-container {
+        flex-direction: column;
+      }
+
+      .flex-container .img-section-2{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+        
+      }
+    
+      .flex-container .img-section-1 {
+        color: white;
+        width: 100%;
+      }
 
 
     .social-links {

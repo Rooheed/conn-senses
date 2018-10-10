@@ -75,6 +75,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    padding: 10px 0;
     background-color: rgba(130, 186, 177, 1);
     box-shadow: 0 2px 2px #efefef;
 }
@@ -204,9 +205,8 @@ input[type=submit]:active {
     width: 100%; 
     height: 100%;
     object-fit: cover;
+    position: absolute;
 }
-
-
 
 /* Next and Prev btn */
 .imgbanbtn {
@@ -243,10 +243,11 @@ input[type=submit]:active {
 
 /* Slides texts */
 .main-banner .imgban-box h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    position: absolute;
 }
 
 .main-banner .imgban-box p {
@@ -255,21 +256,24 @@ input[type=submit]:active {
     color: #fff;
 }
 
-.main-banner #imgban3  .imgban-box {
+.main-banner #imgban3 .imgban-box {
     padding-top: 15%;
     padding-left: 15%;
     
 }
 
-.main-banner #imgban2  .imgban-box {
+.main-banner #imgban2 .imgban-box {
     padding-top: 13%;
     padding-left: 15%;
 }
 
-.main-banner #imgban1  .imgban-box {
-    padding-top: 8rem;
-    padding-left: 8rem;
-    
+.main-banner #imgban1 .imgban-box h2 {
+    font-size: 180%;
+}
+
+.main-banner #imgban1 .imgban-box {
+    padding-top: 20%;
+    padding-left: 15%;
 }
 
 /* Section 1 */
@@ -292,7 +296,7 @@ input[type=submit]:active {
     padding-bottom: 5rem;
 }
 
-.mobile-img img{
+/* .mobile-img img{
     width: 100%;
 }
 
@@ -302,7 +306,43 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     object-fit: cover;
-}
+} */
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    
+  }
+  
+  .flex-container .img-section-2{
+    width: 10%;
+    margin-left: 20px;
+    padding: 4px 0;
+    text-align: center;
+  }
+
+  .flex-container .img-section-1 {
+    color: white;
+    width: 10%;
+    
+  }
+
+  .img-section-1 img {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+  }
+
+  .img-section-2 video {
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+
+  }
 
 /* Section 2 */
 .section-2 {
