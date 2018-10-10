@@ -429,10 +429,21 @@ input[type=submit]:active {
 /*---------------------------------*/
 /*FOOTER*/
 /*---------------------------------*/
+
+.img-img img {
+    width: 40%;
+    top: 0;
+    left: 60%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.1;
+}
 footer {
     background-color: rgb(158, 155, 155);
     font-size: 80%;
     padding: 6rem 8rem;
+    position: relative;
 }
 
 .footer-logo img {
