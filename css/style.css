@@ -321,7 +321,12 @@ input[type=submit]:active {
 .flex-container .img-section-1 {
     color: white;
     width: 20%;
+    transition: all .2s;
   }
+
+.img-section-1:hover {
+    transform: scale(1.05);
+}
 
 .img-section-1 img {
     width: 100%;
@@ -331,14 +336,15 @@ input[type=submit]:active {
 }
 
 /* Video section 1 */
-.flex-container .img-section-2 {
-    width: 10%;
+.flex-container .video-section-1 {
+    width: 50%;
     margin-left: 20px;
     padding: 4px 0;
     text-align: center;
+    transition: all .2s;
   }
 
-  .img-section-2 video {
+  .video-section-1 video {
     top: 0;
     left: 0;
     width: 100%; 
@@ -348,7 +354,12 @@ input[type=submit]:active {
     border: solid 3px #ebe9e9;
   }
 
-  /*---------------------------------*/
+  .video-section-1:hover {
+    transform: scale(1.05);
+}
+
+
+/*---------------------------------*/
 /* Section 2 */
 /*---------------------------------*/
 .section-2 {
@@ -400,6 +411,7 @@ input[type=submit]:active {
     color: rgba(130, 186, 177, 1);
 }
 
+
 /*---------------------------------*/
 /* Section 3 */
 /*---------------------------------*/
@@ -426,8 +438,9 @@ input[type=submit]:active {
     width: 100%;
     margin-top: 3rem;
     margin-left: 2rem;
+    transition: all .2s;
   }
-
+  .img-section-3:hover { transform: scale(1.05);}
 /*---------------------------------*/
 /*FOOTER*/
 /*---------------------------------*/
@@ -517,11 +530,12 @@ footer {
 .ion-social-linkedin,
 .ion-social-vimeo {
 	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
+    transition: color 0.2s;
+    
 }
 
 .ion-social-facebook:hover {
-	color: #3d5998;
+    color: #3d5998;
 }
 .ion-social-twitter:hover {
 	color: #00aced;

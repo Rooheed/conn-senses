@@ -14,12 +14,6 @@
         font-size: 1.3rem;
     }
 
-    .section-3-flex>div {
-        width: 70%;
-        font-size: 1.1rem;
-        margin-left: 8rem;
-    }
-
     footer p {
         text-align: left;
         margin-bottom: .8rem; 
@@ -58,8 +52,6 @@
     }
 
     .main-nav {
-        
-        
         margin-top: 20px;
         margin-right: 2rem;
     }
@@ -230,7 +222,6 @@
         font-size: 1.5rem;
         font-weight: 300;
     }
-   
     .section-2 {
         padding: 1rem 1rem;
     }
@@ -252,7 +243,7 @@
         flex-direction: column;
     }
 
-    .flex-container .img-section-2{
+    .flex-container .video-section-1{
         width: 100%;
         margin-left: 0;
         margin-top: 1rem;
