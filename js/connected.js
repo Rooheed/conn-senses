@@ -126,7 +126,7 @@ $(document).ready(function(){
     });
 
         $('.js--scroll-contact').click(function() {
-            $('html, body').animate({scrollTop: $('.section-3').offset().top}, 1000);
+            $('html, body').animate({scrollTop: $('.js--footer').offset().top}, 1000);
         });
 
     $('.js--section-1').waypoint(function(direction){
