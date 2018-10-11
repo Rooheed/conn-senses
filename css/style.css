@@ -132,7 +132,7 @@ input[type=submit] {
 .btn-full:visited,
 input[type=submit] {
 	background-color: rgba(130, 186, 177, 1);
-	border: 1px solid rgb(255, 255, 255);
+	/* border: 1px solid rgb(255, 255, 255); */
 	color: #fff;
 	margin-right: 15px;
 }
@@ -141,13 +141,13 @@ input[type=submit] {
 .btn-ghost:visited,
 input[type=submit] {
 	background-color: rgb(141, 71, 253);
-	border: 1px solid rgb(255, 255, 255);
+	/* border: 1px solid rgb(255, 255, 255);  */
 	color: #fff;
 	margin-right: 15px;
 }
 .btn-ghost:link,
 .btn-ghost:visited {
-	border: 1px solid #ffffff;
+	/* border: 1px solid #ffffff; */
 	color: #000000;
 }
 
@@ -576,3 +576,38 @@ footer {
 /* Codes by Rooheed Gulistani 
 /* rooheed.gulistani@gmail.com
 /*---------------------------------*/
+
+
+
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 11px;
+    top: 8px;
+    font-size: 19px;
+    transition: all 0.3s ease;
+}
+.return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
