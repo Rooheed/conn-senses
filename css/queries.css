@@ -48,7 +48,7 @@
     }
 
     .logo {
-        width: 10rem;
+        width: 25%;
         margin-left: 2rem;
     }
 
@@ -58,7 +58,16 @@
     }
 
     .main-nav {
-        margin-top: 25px;
+        
+        
+        margin-top: 20px;
+        margin-right: 2rem;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 8px 0;
+        font-size: 65%;
     }
 
     .section-1 {
@@ -122,38 +131,7 @@
        padding-top: 2rem;
    }
 
-    /* Mobile navi */
-    .main-nav { display: none;}
-    .mobile-nav-icon {
-        display: inline-block;
-    }
 
-    .main-nav {
-        float: left;
-        margin-top: 15px;
-        margin-left: 25px;
-    }
-
-    .main-nav li {
-        display: block;
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 4px 0;
-        font-size: 80%;
-    }
-
-    .sticky .main-nav { margin-top: 10px;}
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited {padding: 4px 0;}
-}
-
-    .main-nav li a:link,
-    .main-nav li a:visited {
-    font-size: 70%;
 }
 
 /* Small phones: from 0 to 480px */
@@ -184,9 +162,13 @@
     .main-nav {
         height: 100%;
         padding: 50px 0; 
+        float: left;
+        margin-top: 15px;
+        margin-left: 25px;
     }
-
+   
     .main-nav li {
+        display: block;
         padding-top: 12px;
         margin-left: -130px;
     }
@@ -204,21 +186,23 @@
         color: #000;
     }
 
+    .sticky {
+        padding: 0;
+    }
+
     .sticky .main-nav { margin-top: 5px;}
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
         padding: 5px 0;
         margin-left: 1px;
+        color: #fff;
+        background-color: rgb(179, 179, 179);
     }
 
     .sticky .main-nav {
         height: 100%;
-        padding: 100px 0;
+        padding: 80px 0;
     }
-
-    
-
-   
 
     .main-banner #imgban3  .imgban-box {
         padding-top: 50%;
@@ -282,16 +266,18 @@
 
 
     .social-links {
-        margin-right: 1%;
+        margin-right: -2rem;
         margin-top: -160px;
         padding: 2rem 0;
     }
 
+   
     .btn:link,
     .btn:visited,
     input[type=submit] {
         padding: 8px 15px;
     }
+    
 }
 
 

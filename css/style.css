@@ -84,7 +84,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5px 0;
+    padding: 8px 0;
     background-color: rgb(179, 179, 179);
     box-shadow: 0 2px 2px #efefef;
 }
@@ -443,7 +443,7 @@ input[type=submit]:active {
 footer {
     background-color: rgb(158, 155, 155);
     font-size: 80%;
-    padding: 6rem 8rem;
+    padding: 6rem 8rem ;
     position: relative;
 }
 
