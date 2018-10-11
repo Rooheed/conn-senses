@@ -169,6 +169,20 @@ input[type=submit]:active {
 	color: #fff;
 }
 
+.email-side {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    color: #fff;
+    font-size: 80%;
+    text-decoration: none;
+    z-index: 1;
+    transform: rotate(450deg);
+}
+
+.email-side:hover {
+    color: rgb(192, 192, 192);
+}
 /*---------------------------------*/
 /* Image slide */
 /*---------------------------------*/
