@@ -182,37 +182,41 @@
     }
 
     .main-nav {
-        float: left;
-        margin-top: 15px;
-        margin-left: 5px; 
+        height: 100%;
+        padding: 50px 0; 
     }
 
     .main-nav li {
-        display: block;
+        padding-top: 12px;
+        margin-left: -130px;
     }
 
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
         border: 0;
-        padding: 4px 0;
+        padding: 6px 8px;
         font-size: 60%;
         margin-left: -25px;
+        background-color: rgb(179, 179, 179);
+        width: 80px;
+        opacity: 0.7;
+        
     }
 
     .sticky .main-nav { margin-top: 5px;}
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
         padding: 5px 0;
-        margin-left: -150px;
-        margin-top: 10px;
-        
+        margin-left: 1px;
     }
 
     .sticky .main-nav {
         height: 100%;
         padding: 100px 0;
     }
+
+    
 
    
 
