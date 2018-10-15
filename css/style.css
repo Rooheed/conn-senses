@@ -245,7 +245,6 @@ input[type=submit]:active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 .main-banner .imgban video {
@@ -259,9 +258,9 @@ input[type=submit]:active {
 
 /* NEXT AND PREV BTN */
 .imgbanbtn {
-    width: 2rem;
-    height: 2rem;
-    background-color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(53, 53, 53);
     border-radius: 20%;
     position: absolute;
     top: 50%;
@@ -502,6 +501,12 @@ footer {
     margin-top: 3rem;
 }
 
+.footer-1 a {
+    text-decoration: none;
+}
+.footer-1 a p:hover {
+    color: rgb(218, 218, 218);
+}
 .footer-p {
   text-align: left;
   color: rgb(255, 255, 255);
