@@ -48,10 +48,10 @@ function bannerLoop() {
             document.getElementById("imgban1").style.right = "0px";
             document.getElementById("imgban1").style.right.zIndex = "1000";
 
-            document.getElementById("imgban2").style.right = "-1200px";
+            document.getElementById("imgban2").style.right = "-1500px";
             document.getElementById("imgban2").style.right.zIndex = "1500";
 
-            document.getElementById("imgban3").style.right = "1200px";
+            document.getElementById("imgban3").style.right = "1500px";
             document.getElementById("imgban3").style.right.zIndex = "500";
         }, 500);
         setTimeout(function() {
@@ -69,10 +69,10 @@ function bannerLoop() {
             document.getElementById("imgban2").style.right = "0px";
             document.getElementById("imgban2").style.right.zIndex = "1000";
 
-            document.getElementById("imgban3").style.right = "-1200px";
+            document.getElementById("imgban3").style.right = "-1500px";
             document.getElementById("imgban3").style.right.zIndex = "1500";
 
-            document.getElementById("imgban1").style.right = "1200px";
+            document.getElementById("imgban1").style.right = "1500px";
             document.getElementById("imgban1").style.right.zIndex = "500";
         }, 500);
         setTimeout(function() {
@@ -90,10 +90,10 @@ function bannerLoop() {
             document.getElementById("imgban3").style.right = "0px";
             document.getElementById("imgban3").style.right.zIndex = "1000";
 
-            document.getElementById("imgban1").style.right = "-1200px";
+            document.getElementById("imgban1").style.right = "-1500px";
             document.getElementById("imgban1").style.right.zIndex = "1500";
 
-            document.getElementById("imgban2").style.right = "1200px";
+            document.getElementById("imgban2").style.right = "1500px";
             document.getElementById("imgban2").style.right.zIndex = "500";
         }, 500);
         setTimeout(function() {
